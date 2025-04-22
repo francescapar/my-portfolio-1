@@ -7,13 +7,11 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-logo">Francesca Parodi</div>
       <ul className="navbar-links">
-        <li><Link to="my-portfolio-1/">Home</Link></li>
-        <li><Link to="my-portfolio-1/about">About</Link></li>
-        <li><Link to="my-portfolio-1/projects">Projects</Link></li>
-        <li><Link to="my-portfolio-1/contact">Contact</Link></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );
 }
-
-

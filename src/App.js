@@ -8,15 +8,15 @@ import Contact from './pages/contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio-1">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="my-portfolio-1/" element={<Home />} />
-            <Route path="my-portfolio-1/about" element={<About />} />
-            <Route path="my-portfolio-1/projects" element={<Projects />} />
-            <Route path="my-portfolio-1/contact" element={<Contact />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
