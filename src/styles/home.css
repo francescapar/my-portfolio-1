@@ -1,0 +1,116 @@
+/* src/pages/Home.css */
+
+.home-section {
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  .home-highlight {
+    color: #313333
+  }
+  
+  .home-content {
+    max-width: 700px;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  
+  .home-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .home-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .projects-button {
+    background-color: rgb(255, 255, 255);
+    color: #313333;
+  }
+  
+  .projects-button:hover {
+    background-color: #d8dade;
+  }
+  
+  .contact-button {
+    background-color: #313333;
+    color: white;
+  }
+  
+  .contact-button:hover {
+    background-color: #636868;
+  }
+  
+  @keyframes fadeInSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeInSlideUp 1s ease-out;
+  }
+  
+  .home-highlight {
+    color: #313333;
+    animation: colorPulse 3s infinite;
+  }
+  @keyframes fadeInSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeInSlideUp 1s ease-out;
+  }
+  
+  .home-highlight {
+    color: #313333; 
+  }
+  
+  
