@@ -1,6 +1,6 @@
 // src/pages/About.jsx
 import '../styles/about.css';
-import profilePic from '../assets/pfp.png'; // Replace with your actual image name
+import profilePic from '../assets/pfp.png';
 
 export default function About() {
   return (

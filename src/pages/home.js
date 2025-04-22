@@ -11,10 +11,10 @@ export default function Home() {
           I'm a Digital Media student at UCF focused on Web & Interactive Media. I love designing clean, user-friendly websites and exploring UX/UI design to create meaningful digital experiences.
         </p>
         <div className="home-buttons">
-          <a href="/projects">
+          <a href="projects">
             <button className="home-button projects-button">View Projects</button>
           </a>
-          <a href="/contact">
+          <a href="contact">
             <button className="home-button contact-button">Contact Me</button>
           </a>
         </div>

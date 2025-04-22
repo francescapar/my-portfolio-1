@@ -1,4 +1,7 @@
 import '../styles/contact.css';
+import linkedinIcon from "../assets/linkedin.png";
+import githubIcon from "../assets/github.png";
+import twitterIcon from "../assets/twitter.png";
 
 export default function Contact() {
   return (
@@ -18,13 +21,13 @@ export default function Contact() {
           <h2>Connect with me</h2>
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/francesca-parodi-4172ab2a3/" target="_blank" rel="noopener noreferrer">
-            <img src="/linkedin.png" alt="LinkedIn" />
+            <img src={linkedinIcon} alt="LinkedIn" />
             </a>
             <a href="https://github.com/francescapar" target="_blank" rel="noopener noreferrer">
-              <img src="/github.png" alt="GitHub" />
+              <img src={githubIcon} alt="GitHub" />
             </a>
             <a href="https://twitter.com/francescap59170" target="_blank" rel="noopener noreferrer">
-              <img src="/twitter.png" alt="Twitter" />
+              <img src={twitterIcon} alt="Twitter" />
             </a>
           </div>
         </div>
